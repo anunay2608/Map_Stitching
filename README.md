@@ -13,6 +13,9 @@ We have created the fisheye file to remove the FISHEYE effect which is most comm
 Stitcher.py is the code which stitches the images given to it. It extracts the images from the given folder and then undistort each and every image using the previously calculated Camera Matrix and Distortion Coefficients and then follows the complete Map_Stitching procedure to stitch all the given images to each other and outputs a single RGB image by composing all the multiple images.
 [HERE YOU HAVE TO SPECIFY THE PATH TO THE CAM_MATRIX, DISTORTIO_COEFF PATH AND THE IMAGES FOLDER PATH, AND HENCE RECIEVES A SINGLE STITCHED IMAGE.]
 
+## Real Time Map_Stitching : 
+This code represents the real time map stitching task, which includes the controlling of a camera using python code and then stitching the 5 consecutive frames which is done because of space constraints. Since stitching task performed on the complete video will lead to a larger space consumption hence we stitched 5(can be variable, let "n") alternate frames and stored them into a folder. This basically reduces the computation power and the space consumotion by factor of "n". Then we can stitch the saved folder by the same concept as discussed in Map_Stitching and coded in Stitcher.py
+
 ## Requirements 
 The following python libraries are necessary to run the Map Stitching code:
   1) OpenCV
