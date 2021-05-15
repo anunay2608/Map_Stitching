@@ -8,3 +8,11 @@ The process of map stitching involves following tasks :
 
 ## Fisheye :
 We have created the fisheye file to remove the FISHEYE effect which is most commonly seen in approximately all cameras, resulting in the strong visual distortion intended to create a wide panoramic or hemispherical image. For doing the same we have to click the variable images of the chessboard printout taken on any A4 size sheet and then running the code Fisheye.py for the same. Fisheye.py returns 2 pickle file consisting of Camera Matrix and the Distortion Coefficient values hich perticularly depends on the camera itself.
+
+# Requirements 
+The following python libraries are necessary to run the Map Stitching code:
+  OpenCV
+  Glob
+  Numpy
+  OS
+  Pickle
