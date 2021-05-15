@@ -8,8 +8,8 @@ import os
 #HERE WE HAV CLICKED AROUND 500 IMAGES OF A CHESSBOARD PRINTOUT TAKEN ON AN A4 SIZE SHEET, AND THEN STORED IT IN FOLDER NAMED CHESSBOX
 
 img_names = []
-for i in os.listdir("/home/anunay/Desktop/cheesbox"):
-	img_path = "/home/anunay/Desktop/cheesbox" + "/" + i
+for i in os.listdir("/home/anunay/Desktop/chessbox"):
+	img_path = "/home/anunay/Desktop/chessbox" + "/" + i
 	img_names.append(img_path)
 
 term = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_COUNT, 30, 0.1)#30 and 0.1 are the threshhold value for the count of chessbox corners found and epsilon value. 
