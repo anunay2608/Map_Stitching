@@ -1,3 +1,4 @@
+Examples and images are yet to be added....
 # Map_Stitching
 Map Stitching or Mosaicing is a task of composing and stitching multiple images with narrow but overlapping fields of aerial views to create a larger image with a wider field of view covering a large area in a single RGB image.
 The process of map stitching involves following tasks : 
