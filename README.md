@@ -11,7 +11,7 @@ We have created the fisheye file to remove the FISHEYE effect which is most comm
 
 # Stitcher : 
 Stitcher.py is the code which stitches the images given to it. It extracts the images from the given folder and then undistort each and every image using the previously calculated Camera Matrix and Distortion Coefficients and then follows the complete Map_Stitching procedure to stitch all the given images to each other and outputs a single RGB image by composing all the multiple images.
-    [HERE YOU HAVE TO SPECIFY THE PATH TO THE CAM_MATRIX, DISTORTIO_COEFF PATH AND THE IMAGES FOLDER PATH, AND HENCE RECIEVES A SINGLE STITCHED IMAGE.]
+ ->[HERE YOU HAVE TO SPECIFY THE PATH TO THE CAM_MATRIX, DISTORTIO_COEFF PATH AND THE IMAGES FOLDER PATH, AND HENCE RECIEVES A SINGLE STITCHED IMAGE.]
 
 # Requirements 
 The following python libraries are necessary to run the Map Stitching code:
