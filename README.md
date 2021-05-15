@@ -20,4 +20,5 @@ The following python libraries are necessary to run the Map Stitching code:
   3) Numpy
   4) OS
   5) Pickle
-
+  6) Connections
+  7) Imutils
