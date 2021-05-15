@@ -13,6 +13,6 @@ We have created the fisheye file to remove the FISHEYE effect which is most comm
 The following python libraries are necessary to run the Map Stitching code:
   1) OpenCV
   2) Glob
-  Numpy
-  OS
-  Pickle
+  3) Numpy
+  4) OS
+  5) Pickle
